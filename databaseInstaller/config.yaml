@@ -1,0 +1,11 @@
+#See https://intercept-database.readthedocs.io/en/stable/intro/config-file.html for more information
+global:
+ enableDynamicQueries: true
+
+accounts:
+ maindb:
+  ip: localhost
+  username: GCSUser
+  password: StrongPassword
+  database: GCSARMA
+  port: 3306
