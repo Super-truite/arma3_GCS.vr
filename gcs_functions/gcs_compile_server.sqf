@@ -11,7 +11,6 @@ if (GCS_VAR_GRIDSYSTEM_ENABLE_DATABASE isEqualTo true) then {
 };
 GCS_fnc_grid_activateSector = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_activateSector.sqf";
 GCS_fnc_grid_addOrUpdateSectorObject = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_addOrUpdateSectorObject.sqf";
-GCS_fnc_grid_backupSectors = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_backupSectors.sqf";
 GCS_fnc_grid_cacheAll = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_cacheAll.sqf";
 GCS_fnc_grid_createGridMarker = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_createGridMarker.sqf";
 GCS_fnc_grid_deactivateSector = compile preprocessFileLineNumbers "gcs_functions\grid\fnc_deactivateSector.sqf";

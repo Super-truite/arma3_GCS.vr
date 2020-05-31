@@ -15,11 +15,4 @@ class Params
 		texts[] = {"false","true"}; // Description of each selectable item
 		default = 0;
 	};
-	class MakeBackupOnReset
-	{
-		title = "Makes a database backup on persistence reset";
-		values[] = {0,1}; 
-		texts[] = {"false","true"}; // Description of each selectable item
-		default = 1;
-	};
 };
